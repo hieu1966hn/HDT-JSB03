@@ -1,0 +1,15 @@
+.chat-box{ 
+border: 5px double teal ; width: fit-content;
+margin-bottom: 10px;
+margin: auto;
+}
+
+#first-box{
+    display: flex;
+}
+#second-box{
+    display: flex;
+}
+#third-box{
+    display: flex;
+}

@@ -1,0 +1,28 @@
+#second-box{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.chat-box{
+    border-color:  green;
+    border-width: 5px;
+    border-style: solid;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+}
+.content{
+    margin-left: 10px;
+    display: inline-block;
+}
+.main{
+    
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+}

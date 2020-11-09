@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.page{
+    margin: auto;
+    background-color: rgb(243, 218, 172);
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.left{
+    width: 1000px;
+    margin: auto;
+}
+.font{
+    font-size:25px;
+    margin: 10px 0px;
+}
+.nav{
+    background-color: rgb(31, 18, 16);
+}
+.nav ul {
+    display: flex;
+}
+.nav ul li {
+    list-style: none;
+    margin: 10px;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: tomato;
+    transition: all 2s;
+}
+/* link css page 2 */
+a:hover{
+    transform: scale(3);
+}

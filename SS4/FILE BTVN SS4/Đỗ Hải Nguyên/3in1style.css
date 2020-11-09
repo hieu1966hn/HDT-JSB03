@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: burlywood;
+}
+.content{
+    text-align: center;
+}
+.test{
+    border: crimson solid 10px;
+
+     line-height: 100px;
+}

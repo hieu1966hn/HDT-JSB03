@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // let i = 0;
+        // while (i<=10) {
+        //     console.log(i);
+        //     i = i + 1;
+        // }
+
+        // nhap vao 1 so nguyen n; in ra so do?
+
+        // let n;
+        // do {
+        //     n = Number(prompt("nhap vao so nguyen n:"));
+        // }
+        // while (n !== parseInt(n));
+        // console.log(n);
+
+
+
+
+        //// nhap  vao 1 so nguyen duong n. Tinh tổng các số từ 1 -> n;
+
+        // let n, i = 1, tong = 0;
+        // let count = 0;
+        // do {
+        //     if (count >= 1) {
+        //         alert("moi ban nhap lai");
+        //     }
+        //     n = Number(prompt("nhap vao so nguyen duong n "));
+        //     count++; // count = count + 1;
+        //     // console.log(count);
+        // }
+        // while (n !== parseInt(n) || n <= 0);
+        // // console.log(n);
+        // while (i <= n) {
+        //     tong = tong + i;
+        //     i = i + 1;
+        // }
+        // console.log("vay tong = " + tong);
+
+
+        // nhap vao 1 so n bat ki ( nguyen duong). in ra cac so nguyen to tu 1-> n;
+        //  SNT: la so chi chia het cho 1 && chinh no.
+
+
+        let n;
+        do {
+            n = Number(prompt("nhap vao so nguyen duong n "));
+        }
+        while (n !== parseInt(n) || n <= 0);
+
+        // n da la so nguyen duong;
+        // in ra so nguyen to tu 2 -> n
+        for (let i = 2; i <= n; i++) {
+            let count = 0;
+            // vong lap de xet xem co phai la so nguyen to hay khong
+            for (let j = 1; j <= i; j++) {
+                if (i % j == 0) {
+                    count++;
+                }
+            }
+            // va no tra ve gia tri count
+            if (count == 2) {
+                console.log(i + "\t");
+            }
+        }
+
+    </script>
+</body>
+
+</html>
